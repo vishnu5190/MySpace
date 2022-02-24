@@ -1,0 +1,67 @@
+.heading{
+    /* border: 2px solid none; */
+    /* border-radius: 10px; */
+    justify-content: center;
+    text-align: center;
+    /* font-family: 'Moo Lah Lah', cursive; */
+    /* font-family: 'Roboto Serif', sans-serif; */
+    font-family: 'Gideon Roman', cursive;
+    /* font-size: 60px; */
+    /* margin-top: 10px; */
+
+    width: 70%;
+    margin-top: 15px;
+    position: relative;
+    left: 150px;
+    box-shadow: 2px 2px 4px  grey;
+    padding: 5px 0px;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-bottom: 40px;
+
+    background-color: #FFFEA9;
+    color: BLACK;
+    
+
+}
+
+.body1{
+    /* border: 2px solid red; */
+    height: 82vh;
+    overflow: scroll;
+    /* background-color: rgba(128, 128, 128, 0.295); */
+    /* background-image: linear-gradient(120deg , #3498db , #8e44ad); */
+}
+
+.boxsmall{
+    
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid red; */
+    padding: 20px 0px;
+    margin: 40px 30px;
+    /* width: 500px; */
+    
+    
+    
+
+}
+
+.boxsmall a{
+    /* border: 2px solid green ; */
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: blue;
+    border-radius: 13px;
+    color: white;
+    
+    
+    
+}
+
+.boxsmall a:hover{
+    background-color: gainsboro;
+    color: black;
+}
+

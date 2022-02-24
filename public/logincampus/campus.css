@@ -1,0 +1,141 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+
+}
+.navbar{
+    border: 2px solid red;
+    display: flex;
+}
+
+.middleul{
+    list-style: none;
+    display: flex;
+    
+    
+    
+}
+.middle{
+    margin-left: 48rem ;
+    margin-top:1rem;
+    padding:1rem;
+
+}
+.middleul li{
+    margin: 0.1rem;
+    padding:0.3rem;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 1rem;
+    
+}
+
+.left{
+    margin: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
+    margin-left: 5rem;
+}
+.left h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.right{
+    margin: 1.1rem;
+    padding: 1rem;
+}
+
+
+.containercampus{
+    padding: 2rem 2rem;
+    margin-top: 1rem;
+}
+
+.campus1{
+    display:flex;
+    justify-content:center;
+}
+.campuslogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 3rem; */
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.campusimage{
+    width:50%;
+    margin-left:10rem;
+    margin-top: 3rem;
+}
+
+.campuslogin h3{
+  font-size: 1.8rem;
+  font-weight:500;
+  margin-bottom:0.5rem;
+}
+.campus2{
+    font-size: 14px;
+    color: #8392a5;
+    margin-bottom:40px;
+    width: 20rem;
+}
+
+.btn{
+    margin-left: 1.5rem;
+    margin-bottom: 0.8rem;
+    padding: 0.6rem;
+    width: 75%;
+
+    border: 1px solid rgb(62, 212, 62);
+    border-radius:0.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn1{
+    border-color: rgb(61, 61, 255);
+}
+.btn2{
+    border-color: red;
+    color: red;
+}
+
+.btn3{
+    color: rgb(35, 172, 35);
+}
+
+.campusp3{
+    margin: 2rem 0rem;
+    width:75%;
+}
+
+.campusp3 a{
+  text-decoration: none;
+  color: orangered;
+}
+
+.footerlogincampus{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:45px; 
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(194, 194, 194);
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(245, 245, 245, 0.87);
+    
+}
+
+.footerlogincampus span{
+    color: orangered;
+}
+
+.campus4{
+    padding: 1rem;
+    font-size:0.8rem;
+    color: rgba(128, 128, 128, 0.63);
+}
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="../slogin/slogin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:ital,wght@1,200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+    <% if(message){  %>
+        <div style= "text-align: center ; margin-bottom : 4px " class="alert alert-<%= message.type %>">
+          <button type="button" class="close" data-dismiss="alert"> &times; </button>
+          <strong> <%= message.intro %></strong> <%= message.message %>
+        </div>
+    
+        <% } %>
+    <div class="l1">
+    </div>
+    <div class="nav">
+       <P class= "p1">MySpace</P>
+       <!-- <img src="../slogin/images/img3.png"> -->
+       <!-- <p class="p2">Contact</p> -->
+
+    </div>
+    
+    
+        <div class="l2">
+            <form action="/studentlogin" method="POST">
+                <div>
+                    <p class="pp1">SIGN IN</p>
+                   
+                </div>
+                <div class="l3">
+                    <!-- <label for="email">Email</label> -->
+                    <input type="email" name="username" id="email" placeholder="Email" required/>
+                </div>
+                
+                <div class="l3">
+                    <!-- <label for="password">Password</label> -->
+                    <input type="password" name="password" id="password" placeholder="Password" required/>
+                </div>
+                <button type="submit" class="btns" >SIGN IN</button>
+            </form>
+            <div>
+                
+                <div class="for">
+                    <p>Forget password</p>
+
+                </div>
+            </div>
+
+
+        
+    </div>
+</body>
+</html>

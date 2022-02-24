@@ -1,0 +1,191 @@
+*{
+    margin: 0px 0px;
+    padding : 0px 0px;
+    
+}
+
+
+.imgclass{
+    margin: 0px 2px;
+    padding: 10px 10px;
+    /* border: 2px solid black; */
+    /* position: fixed; */
+    /* z-index: 11; */
+   border-bottom: 1px solid blue;
+   border-radius: 10px;
+   
+}
+
+.imgclass img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    /* border: 1px solid blue; */
+    color: white;
+   
+}
+
+
+.leftnav{
+    width: 20%;
+    /* border: 2px solid green; */
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    /* background-color: #222831e0; */
+    /* background-color: rgba(25, 28, 41); */
+    background-color: #000000;
+    /* background-color: rgb(24, 25, 27); */
+   
+    /* background-color: #000000; */
+    color: white;
+    
+    /* background-image: linear-gradient(to bottom right, blue, white); */
+
+    
+    
+    /* background-image: url("../img/hero.png"); */    
+}
+
+.insideoption{
+    display: flex;
+    flex-direction: column; 
+    /* background-color: rgb(25,28,41); */
+    background-color: #000000;
+    /* background-color: rgb(24, 25, 27); */
+    /* text-align: left; */
+    
+    /* background-color: rgb(25,28,41); */
+    /* border: 2px solid rgb(173, 69, 69); */
+    /* background-color: #222831e0; */
+    /* background-color: #000000; */
+  
+    
+     
+}
+
+.insideoption a{
+    text-decoration: none;
+    /* border: 2px solid red; */
+    /* border-bottom: 1px solid grey; */
+
+    padding: 14px 10px;
+    
+    /* color: blue; */
+    color: white;
+    font-size: 17px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 500;
+  margin: 2px 0px;
+    
+}
+.insideoption a:hover{
+    background-color: rgba(0, 0, 255);
+    color: greenyellow;
+    box-shadow: 1px 2px 5px blue;
+
+  
+}
+
+.options{
+    /* border: 2px solid blue; */
+    overflow: scroll;
+    height: 80vh;
+}
+
+.right{
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    /* margin-left: 0px; */
+    width: 80%;
+    /* border: 2px solid green; */
+    height: 100vh;
+}
+
+.navtop{
+    /* border: 2px solid peru; */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(54, 138, 248)); */
+    /* background-color: rgb(37 , 43 , 52); */
+    /* background-color: rgb(32, 35 ,48); */
+    /* background-color: #4375FF; */
+    background-color: rgb(37, 38, 39);
+    /* background-color: #222831e0; */
+}
+.searchbox{
+    position: relative;
+    /* border: 2px solid red; */
+   left: 250px;
+   margin-top: 8px;
+   /* border-radius: 60px; */
+   /* border: none; */
+    
+}
+.searchbox input{
+    width:400px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: none;
+}
+.logout{
+    margin: 8px 2px;
+    position: relative;
+    right: 20px;
+    
+    /* padding: 8px 15px; */
+    /* border-radius: 10px  ; */
+    
+}
+
+.logout a{
+    text-decoration: none;
+    /* border: 2px solid rebeccapurple; */
+    color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+    /* padding: 30px 10px; */
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid blue;
+    background-color: transparent;
+    /* background-color: red; */
+    /* box-shadow: 3px 3px 5px  grey; */
+
+    
+    /* background-color: orangered; */
+
+}
+
+.logout a:hover{
+    background-color: aqua ;
+    color: #000;
+}
+
+.buttonout{
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 200px;
+    /* outline: none; */
+    background: white;
+    z-index: 11;
+
+}

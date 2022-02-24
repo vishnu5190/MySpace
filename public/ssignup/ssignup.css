@@ -1,0 +1,153 @@
+*{
+    margin: 0px 0px;  
+    padding: 0px 0px;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+      height: 100%;
+    }
+  
+  .l1{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url('./images/b.jpeg');
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: blur(4px);
+      background-attachment: fixed;
+  
+      
+      
+      /* z-index: -2; */
+      /* opacity: 0.8; */
+      
+      
+  }
+  .nav{
+    z-index: 2; 
+    position: absolute;
+    top: 0%;
+    color: white;
+    /* display:flex; */
+    display: grid;
+     grid-auto-flow: column;
+    grid-column-gap: 27rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.nav img{
+    width: 8rem;
+}
+.p1{
+    font-size: 3rem;
+    margin-left: -15rem;
+    margin-top: 5rem;
+}
+
+.p2{
+    
+    font-size: 1.5rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+}
+
+.c2{
+    color: white;
+    /* border: 2px solid red; */
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    padding: 20px; 
+    
+    /* text-align: center; */
+    transform: translate(-50%, -50%);
+}
+
+.pp3{
+    font-family: 'Outfit', sans-serif;
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+    margin: 2rem;
+    /* justify-content: center; */
+    text-align: center;
+    
+}
+.c4{
+    margin-bottom:  1rem;
+}
+.c8{
+    margin-bottom:  1rem;
+}
+
+.c4 label{
+    font-family: 'Roboto', sans-serif;
+   margin: 1rem;
+   
+    font-size: 2rem;
+    text-align: justify;
+    
+    
+}
+.c4 input{
+    outline:none;
+    border: 0px;
+    background: none;
+    width: 70%;
+    border-bottom: 1px solid white;
+    height: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    /* border-bottom-style: dotted; */
+    color: white;
+}
+
+
+.main{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    margin-left: 15rem;
+    margin-bottom: 3rem;
+    /* text-align: center; */
+}
+.c6 label{
+    margin-right: 5.5rem;
+}
+.c7 label{
+    margin-right: 6rem;
+}
+.c8 label{
+    margin-right: 4.2rem;
+}
+.c9 label{
+    margin-right: 2rem;
+}
+.c10 label{
+    margin-right: 2rem;
+}
+
+.btn4{
+    justify-content: center;
+    text-align: center;
+   
+}
+.btn2{
+    padding: 0.6rem;
+    width: 20%;
+    border: 0px;
+    margin-right: 0.3rem;
+    border-radius: 2rem;
+    height: 4rem;
+    
+}
+.btnsignup{
+    background-color: rgb(17, 197, 17);
+}
+
+.btncancel{
+    background-color: red;
+}

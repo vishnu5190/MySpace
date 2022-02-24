@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySpace</title>
+    <link href="../mainpage/mainpage.css" rel="stylesheet">
+    <link href="../profile/profile.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:ital@1&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="leftnav">
+            <div class="imgclass">
+                <img src="../mainpage/image/img458.jpg" alt="yourimg">
+                <p><%=admin.fname + "  " + admin.lname %></p>
+            </div>
+            <div class="options">
+                <div class="insideoption">
+                    <a href="/profile">Profile</a>
+                    <a href="/event">Event</a>
+                    <a href="/message">Message</a>
+                    <a href="#">Friends</a>
+                    <a href="/notes">Notes</a>
+                    <a href="/result">Result</a>
+                    <a href="#">Gallery</a>
+                    <a href="/payment">Fee Payment</a>
+                    <a href="#">Quiz</a>
+                    <a href="#">Fun</a>
+                    <a href="#">setting</a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="navtop">
+                <div class="searchbox">
+                    <form class="example" action="action_page.php">
+                        <input type="text" placeholder="Search.." name="search" >
+                        <button type="submit" class="buttonout"><i class="fa fa-search"></i></button>
+                      </form>
+                </div>
+                <div class="logout">
+                    <a href="/logout">Logout</a>
+                </div>
+            </div>
+            <div class="mainbody">
+                <div class="insidemainbody">
+                    <p class="profileline">MY PROFILE</p>
+                    <div class="pimages">
+                        <img src="../mainpage/image/vishnu.jpg" alt="yourimage">
+
+                    </div>
+                    <div class="details">
+                       <p> Name: <span><%=admin.fname + "  " + admin.lname %></span></p>
+                        <p>USN:<span>  <%= admin.usn %></span></p> 
+                        <p>Email:<span> <%= admin.username %></span></p>
+                        <div class="wrap1">
+                           <p>Branch: <span> <%= admin.branch %></span></p>
+                          <p>Semester:<span> <%= admin.semester %></span></p>  
+                        </div>
+                        <p>Section:<span> D</span></p>
+                        <p>Gender:<span> Male</span></p>
+                        <p>Password:<span> **********</span></p>
+                        <div class="edit">
+                            <a href="#" >Edit</a>
+                        </div>
+
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

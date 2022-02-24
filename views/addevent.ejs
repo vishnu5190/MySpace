@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySpace</title>
+    <link href="../mainpage/mainpage.css" rel="stylesheet">
+    <link href="../event2/event2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:ital@1&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="leftnav">
+            <div class="imgclass">
+                <img src="../mainpage/image/img458.jpg" alt="yourimg">
+                <p><%=admin.fname + "  " + admin.lname %></p>
+            </div>
+            <div class="options">
+                <div class="insideoption">
+                    <a href="/profile">Profile</a>
+                    <a href="/event">Event</a>
+                    <a href="/message">Message</a>
+                    <a href="#">Friends</a>
+                    <a href="/notes">Notes</a>
+                    <a href="/result">Result</a>
+                    <a href="#">Gallery</a>
+                    <a href="/payment">Fee Payment</a>
+                    <a href="#">Quiz</a>
+                    <a href="#">Fun</a>
+                    <a href="#">setting</a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="navtop">
+                <div class="searchbox">
+                    <form class="example" action="action_page.php">
+                        <input type="text" placeholder="Search.." name="search" >
+                        <button type="submit" class="buttonout"><i class="fa fa-search"></i></button>
+                      </form>
+                </div>
+                <div class="logout">
+                    <a href="/logout">Logout</a>
+                </div>
+            </div>
+
+            <!-- navtopend -->
+            <div class="mainbox1">
+                <div class="mainbodyinside">
+                    <p class="heading">Events</p>
+
+                </div>
+                <div class="eventadding">
+                    <div class="eventadding2">
+                        <div class="eventadding3">
+                            <p class="e2">Add a New Event</p>
+                           
+
+                           
+                            <form action="/addevent" method="post">
+                                <div class="c1">
+                                    <input type="text" class="form-control" name="event" placeholder="Event" />
+                                </div>
+                                <div class="c1">
+                                <input type="text" class="form-control" name="startdate" placeholder="Start date" />
+                                </div>
+                                <div class="c1">
+                                <input type="text" class="form-control" name="enddate" placeholder="End date" />
+                                </div>
+                                <div class="c1">
+                                <input type="text" class="form-control" name="organizer" placeholder="Organizer" />
+                                </div>
+                               
+                                <button type="submit" class="btnsubmit" >SUBMIT</button>
+                            </form>
+                       
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

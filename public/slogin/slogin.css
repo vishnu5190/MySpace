@@ -1,0 +1,112 @@
+*{
+    margin: 0px 0px;  
+    padding: 0px 0px;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+      height: 100%;
+    }
+  
+  .l1{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url('./images/b.jpeg');
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: blur(6px);
+      background-attachment: fixed;
+  
+      
+      
+      /* z-index: -2; */
+      /* opacity: 0.8; */
+      
+      
+  }
+  .nav{
+      z-index: 2; 
+      position: absolute;
+      top: 0%;
+      color: white;
+      /* display:flex; */
+      display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 25rem;
+  font-family: 'Roboto', sans-serif;
+      
+  }
+  
+  .p1{
+    font-size: 2.5rem;
+    margin-left: -9rem;
+    margin-top: 4rem;
+  }
+  
+  .p2{
+      
+      font-size: 1.5rem;
+      margin-right: 10rem;
+      margin-top: 2rem;
+  }
+  .l2{
+     
+      color: white;
+      /* border: 2px solid red; */
+      z-index: 2;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 80%;
+      padding: 20px; 
+  
+      text-align: center;
+      transform: translate(-50%, -50%);
+  }
+  
+  .pp1{
+      font-family: 'Outfit', sans-serif;
+      font-size: 4.5rem;
+      padding-bottom: 1rem;
+      margin: 2rem;
+      
+      
+  }
+  .l3{
+      padding-bottom: 3rem;
+      color: white;
+      
+  }
+  .l3 input{
+      outline:none;
+      border: 0px;
+      background: none;
+      color: rgb(255, 255, 255);
+      width: 40%;
+      border-bottom: 1px solid white;
+      height: 2rem;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      font-size: 2rem;
+      
+  }
+.btns{
+      width: 40% ;
+      font-family: 'Outfit', sans-serif;
+      padding: 0.7rem;
+      background-color: rgb(44, 221, 44);
+      border: 0px;
+      color: white;
+      font-size: 2rem;
+      outline:none;
+  }
+  .for{
+      font-family: 'Roboto', sans-serif;
+      padding: 1rem;
+      font-size: 1.5rem;
+      margin-left: 14rem;
+      
+      
+  }
+  
+  
