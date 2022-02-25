@@ -789,8 +789,12 @@ app.get("/semesterresult" , function(req,res){
     }
 });
 
+let port = process.env.PORT;
+if(port == null || port == "")
+{
+    port = 3000;
+}
 
-
-app.listen(3005, function(){
-    console.log("server is running on port 3005")
+app.listen(port, function(){
+    console.log("server is running on port 3000")
 });
