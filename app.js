@@ -39,7 +39,7 @@ app.use((req, res, next) => {
 })
 
 
-mongoose.connect("mongodb+srv://vishnu-kumar:Bmsce2024@cluster0.ukavm.mongodb.net/student?retryWrites=true&w=majority" , {useUnifiedTopology: true , useNewUrlParser: true});
+mongoose.connect("mongodb+srv://vishnu-kumar:Abcd1234@cluster0.ukavm.mongodb.net/student?retryWrites=true&w=majority" , {useUnifiedTopology: true , useNewUrlParser: true});
 
 const userSchema = new mongoose.Schema({ 
     fname: String,
@@ -792,5 +792,5 @@ app.get("/semesterresult" , function(req,res){
 
 
 app.listen(3005, function(){
-    console.log("server is running on port 3004")
+    console.log("server is running on port 3005")
 });
